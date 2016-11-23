@@ -1,0 +1,7 @@
+.logo {background-image:radial-gradient(50% 100%, #00b3e6 0%, #009ee6 100%);}
+.logo img {width:26%;margin:35px 37% 0;}
+.login-box {background-image:radial-gradient(50% 168%, #00cdf4 0%, #00afeb 64%, #009ee6 100%); border-radius:4px;margin:35px 8% 0;}
+.login-list { padding:0 5%; line-height: 40px;}
+.login-list input {height:40px;line-height: 40px; border-radius:20px; border:1px solid #f8f8f8;padding-left:15px;width:83%;margin-left:2%;}
+.vac-inp {width:25%;margin-left:5%;}
+.login-btn {width:80px;height:80px;line-height: 80px;margin:30px auto 0; background-image:radial-gradient(50% 100%, #00cdf4 0%, #009ee6 100%); border-radius:50%;}
