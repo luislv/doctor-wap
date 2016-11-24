@@ -218,7 +218,7 @@ button, input,textarea,select {line-height: normal; -webkit-appearance: none; bo
 .rsquare{border-radius: 8px;}
 .borderadius3{border-radius: 3px;}
 .pointer{cursor: pointer;}
-.go-btn {position:absolute;right:0;top:50%;margin-top:-12px;color:#ccc}
+.go-btn {position:absolute;top:50%;margin-top:-13px;}
 .backgroundimg{background-size: cover;background-repeat: no-repeat;background-position: center;}
 
 .wrap.hasNav {padding-top: 42px;}
@@ -228,11 +228,11 @@ button, input,textarea,select {line-height: normal; -webkit-appearance: none; bo
 
 @font-face {
 	font-family: 'iconfont';  /* project id："182722" */
-	src: url('//at.alicdn.com/t/font_wv5yz42emem9ggb9.eot');
-	src: url('//at.alicdn.com/t/font_wv5yz42emem9ggb9.eot?#iefix') format('embedded-opentype'),
-	url('//at.alicdn.com/t/font_wv5yz42emem9ggb9.woff') format('woff'),
-	url('//at.alicdn.com/t/font_wv5yz42emem9ggb9.ttf') format('truetype'),
-	url('//at.alicdn.com/t/font_wv5yz42emem9ggb9.svg#iconfont') format('svg');
+	src: url('//at.alicdn.com/t/font_osxhl6et4zaxajor.eot');
+	src: url('//at.alicdn.com/t/font_osxhl6et4zaxajor.eot?#iefix') format('embedded-opentype'),
+	url('//at.alicdn.com/t/font_osxhl6et4zaxajor.woff') format('woff'),
+	url('//at.alicdn.com/t/font_osxhl6et4zaxajor.ttf') format('truetype'),
+	url('//at.alicdn.com/t/font_osxhl6et4zaxajor.svg#iconfont') format('svg');
 	}
 .iconfont{
 	font-family:"iconfont" !important;
@@ -352,3 +352,15 @@ button, input,textarea,select {line-height: normal; -webkit-appearance: none; bo
 /*模拟单选*/
 .radio-cell{width:24px;height:24px;background:url(../images/radio.png) no-repeat 0 0;zoom:80%}
 .radio-cell-active{background:url(../images/radio-act.png) no-repeat 0 0;}
+/*列表单元*/
+.item-box {}
+.item-box .item-box-l  {width:70px;}
+.item-box .item-box-r {}
+.item-box .item-box-r input {width:60%;}
+.qs-num {padding:1px 6px; background-color:red;border-radius: 10px;}
+/*底部栏*/
+.call-bar {background-color: #17a5e6;}
+.call-bar span {height:48px;line-height: 48px; text-align: center;}
+.call-bar .bd {width:40%;}
+.call-bar .fc {width:29%;}
+.call-bar .sf {width:29%;}
