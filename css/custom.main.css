@@ -152,7 +152,9 @@ button, input,textarea,select {line-height: normal; -webkit-appearance: none; bo
 .bb_dgray{border-top: 1px solid #E0E0E0;}
 .nobg{background: none;}
 .bgb{background: #bbb;}
+.bg_egray{background-color: #eee;}
 .bg_gray{background-color: #F1F1F1;}
+.bg_qlgray{background-color: #f8f8f8;}
 .bg_lgray{background-color: #FAFAFA;}
 .bg_agray{background-color: #EEE;}
 .bg_dgray{background-color: #e1e1e1;}
@@ -226,11 +228,11 @@ button, input,textarea,select {line-height: normal; -webkit-appearance: none; bo
 
 @font-face {
 	font-family: 'iconfont';  /* project id："182722" */
-	src: url('//at.alicdn.com/t/font_ooxud37kojdwvcxr.eot');
-	src: url('//at.alicdn.com/t/font_ooxud37kojdwvcxr.eot?#iefix') format('embedded-opentype'),
-	url('//at.alicdn.com/t/font_ooxud37kojdwvcxr.woff') format('woff'),
-	url('//at.alicdn.com/t/font_ooxud37kojdwvcxr.ttf') format('truetype'),
-	url('//at.alicdn.com/t/font_ooxud37kojdwvcxr.svg#iconfont') format('svg');
+	src: url('//at.alicdn.com/t/font_wv5yz42emem9ggb9.eot');
+	src: url('//at.alicdn.com/t/font_wv5yz42emem9ggb9.eot?#iefix') format('embedded-opentype'),
+	url('//at.alicdn.com/t/font_wv5yz42emem9ggb9.woff') format('woff'),
+	url('//at.alicdn.com/t/font_wv5yz42emem9ggb9.ttf') format('truetype'),
+	url('//at.alicdn.com/t/font_wv5yz42emem9ggb9.svg#iconfont') format('svg');
 	}
 .iconfont{
 	font-family:"iconfont" !important;
@@ -347,3 +349,6 @@ button, input,textarea,select {line-height: normal; -webkit-appearance: none; bo
 .patient-list .zt {line-height: 1; padding:2px 4px;margin:-2px 0 0 10px;}
 .patient-list .pic {position:relative; display: inline-block;float:left;margin-bottom:5px;}
 .patient-list .num {position:absolute;top:-7px;right:3px;background-color:red;padding:2px 4px;line-height: 1;border-radius:10px;color:#fff;font-size:10px;}
+/*模拟单选*/
+.radio-cell{width:24px;height:24px;background:url(../images/radio.png) no-repeat 0 0;zoom:80%}
+.radio-cell-active{background:url(../images/radio-act.png) no-repeat 0 0;}

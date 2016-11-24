@@ -96,9 +96,11 @@ $(function(){
 			foldcon.slideToggle();
 			$(this).toggleClass('active');
 			if($(this).hasClass('active')){
-				$(this).find('i').html('&#xe626;')
+				$(this).find('i').html('&#xe626;');
+				$(this).find('em').html('&#xe625;');
 			}else{
-				$(this).find('i').html('&#xe625;')
+				$(this).find('i').html('&#xe625;');
+				$(this).find('em').html('&#xe6ef;');
 			}
 		});
 	});
@@ -140,5 +142,17 @@ $(function(){
 	//消息关闭
 	$(".close").on("click",function(){
 		$(this).parent().fadeOut(300);
+	});
+	//模拟单选
+	$(".radio-cell").each(function(){
+		$(this).click(function(e){
+			$(this).toggleClass('radio-cell-active');
+			if($(this).hasClass('radio-cell-active')){
+				$(this).find("input").attr("checked",true);
+			}else{
+				$(this).find("input").attr("checked",false);
+			}
+			e.stopPropagation();//事件冒泡
+		});
 	});
 });
