@@ -130,6 +130,7 @@ button, input,textarea,select {line-height: normal; -webkit-appearance: none; bo
 .typo_orange, a.typo_orange{color: #F27B17;}
 .typo_lorange, a.typo_lorange{color: #ff9f4f;}
 .typo_cyan, a.typo_cyan{color: #7ed321;}
+.typo_lgreen, a.typo_lgreen{color: #beff5a;}
 .typo_white, a.typo_white{color: #FFF;}
 .typo_pink, a.typo_pink{color: #f45266;}
 .typo_red, a.typo_red{color: #ff5858;}
@@ -237,12 +238,12 @@ button, input,textarea,select {line-height: normal; -webkit-appearance: none; bo
 .thumb_smaller{width: 40px; height: 40px;}
 
 @font-face {
-	font-family: 'iconfont';  /* project id："182722" */
-	src: url('//at.alicdn.com/t/font_18r56h5q7r13v7vi.eot');
-	src: url('//at.alicdn.com/t/font_18r56h5q7r13v7vi.eot?#iefix') format('embedded-opentype'),
-	url('//at.alicdn.com/t/font_18r56h5q7r13v7vi.woff') format('woff'),
-	url('//at.alicdn.com/t/font_18r56h5q7r13v7vi.ttf') format('truetype'),
-	url('//at.alicdn.com/t/font_18r56h5q7r13v7vi.svg#iconfont') format('svg');
+	font-family: 'iconfont';  /* project id 182722 */
+	src: url('//at.alicdn.com/t/font_d9bjpuji76fajor.eot');
+	src: url('//at.alicdn.com/t/font_d9bjpuji76fajor.eot?#iefix') format('embedded-opentype'),
+	url('//at.alicdn.com/t/font_d9bjpuji76fajor.woff') format('woff'),
+	url('//at.alicdn.com/t/font_d9bjpuji76fajor.ttf') format('truetype'),
+	url('//at.alicdn.com/t/font_d9bjpuji76fajor.svg#iconfont') format('svg');
 	}
 .iconfont{
 	font-family:"iconfont" !important;
@@ -384,3 +385,28 @@ button, input,textarea,select {line-height: normal; -webkit-appearance: none; bo
 .icon-list i{font-size: 35px;}
 .icon-list em{font-size: 14px;position:absolute;top:50px;width:100%;left:0;}
 .icon-list .num{position:absolute;top:15px;left:50%;margin-left:10px;background-color:red;padding:2px 4px;line-height: 1;border-radius:10px;color:#fff;font-size:10px;}
+/*顶部tab*/
+.tab-tit { text-align: center; background-color:#fff;font-size:14px;}
+.tab-tit span{display: inline-block;width:33.3%;padding:10px 0;border-bottom:2px solid #fff;}
+.tab-tit .active {border-bottom:2px solid #009ee6;}
+.tab-con {}
+/*列表*/
+.dl-cell{font-size:14px;line-height: 2;}
+.dl-cell dt{float:left;width:80px;color:#666;}
+.dl-cell dd{margin-left:80px;color:#333;}
+.xm {width:40%;}
+.jg {width:20%;}
+.ckz {width:20%;}
+.dw {width:20%;}
+/*量表*/
+.sel-cell {padding-left: 22px;}
+.sel-cell input {width:16px;height:16px;float:left;margin:7px 5px 0 0;}
+.sel-cell input[type="text"] {width:30px;}
+
+.text-cell {}
+.text-cell em{float:left;}
+.text-cell span{border-bottom:1px solid #979797;display: inline-block;}
+.text-cell input{width:100%;}
+
+.area-cell {width:90%;height:60px;}
+.up-btn {width:52px;height:52px; background: url("../images/up-btn.png") no-repeat 0 0;}

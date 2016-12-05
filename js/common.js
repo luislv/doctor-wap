@@ -162,7 +162,6 @@ $(function () {
         });
     });
     //分组
-
     $(".group-item").on("click",function (event) {
         $(".group-item .delete-btn").fadeOut(300);
        $(this).find(".delete-btn").fadeIn(300);
@@ -175,26 +174,15 @@ $(function () {
     $(".delete-btn").on("click",function (event) {
         $(this).parent().remove();
     });
+    //tab
+    $(".tab-tit span").on("click",function(){
+        var index = $(this).index();
+        $(".tab-tit span").removeClass("active");
+        $(this).addClass("active");
+        $(".tab-con").hide();
+        $(".tab-con").eq(index).show();
+
+    });
 
 
 });
-//分组长按事件
-//$.fn.longPress = function () {
-//    var timeout = undefined;
-//    var $this = this;
-//    for (var i = 0; i < $this.length; i++) {
-//        $this[i].addEventListener("touchstart",function (event) {
-//            timeout = setTimeout(function(){
-//                $(".group-item").find(".delete-btn").show(200);
-//            }, 800);
-//           // console.log(333);
-//        }, false
-//    );
-//        $this[i].addEventListener("touchend",
-//        function (event) {
-//            clearTimeout(timeout);
-//        },false
-//    );
-//    }
-//};
-//$(".group-item").longPress();
